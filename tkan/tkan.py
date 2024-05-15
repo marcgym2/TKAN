@@ -1,6 +1,6 @@
 from typing import List, Union, Optional, Callable, Tuple
 import tensorflow as tf
-from tensorflow.keras.layers import Layer, Dense
+from tensorflow.keras.layers import Layer, Dense # type: ignore
 from tkan import BSplineActivation, PowerSplineActivation, FixedSplineActivation
 
 

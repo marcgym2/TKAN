@@ -1,6 +1,6 @@
 import tensorflow as tf
-import tensorflow.keras.backend as K
-from tensorflow.keras.layers import Layer
+import tensorflow.keras.backend as K # type: ignore
+from tensorflow.keras.layers import Layer # type: ignore
 
 @tf.keras.utils.register_keras_serializable(package='tkan', name='FixedSplineActivation')
 class FixedSplineActivation(Layer):
